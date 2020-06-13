@@ -1,21 +1,31 @@
 import { createStore } from "vuex";
 
-export interface IStore {
-  count: number;
+export const state = {
+  num: 0,
+};
+
+export type State = typeof state;
+
+export enum MutationTypes {
+  INC_COUNT = "INC_COUNT",
 }
 
-export const store = createStore<IStore>({
+export enum ActionTypes {
+  ASYNC_INC = "ASYNC_INC",
+}
+
+export const store = createStore<State>({
   state: {
-    count: 0,
+    num: 0,
   },
   mutations: {
-    incCount(state) {
-      state.count = state.count + 1;
+    [MutationTypes.INC_COUNT](state) {
+      state.num = state.num + 1;
     },
   },
   actions: {
-    inc({ commit }) {
-      commit("incCount");
+    [ActionTypes.ASYNC_INC]({ commit }) {
+      setTimeout(() => commit(MutationTypes.INC_COUNT), 500);
     },
   },
 });

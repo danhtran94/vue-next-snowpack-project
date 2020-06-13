@@ -2,13 +2,13 @@ import { defineComponent, computed, Fragment } from "vue";
 import { useStore } from "vuex";
 import { jsx } from "src/utils/jsx";
 
-import { IStore } from "src/store";
+import { State, ActionTypes } from "src/store/index";
 
 export const PageHome = defineComponent({
   setup(props, ctx) {
-    const store = useStore<IStore>();
-    const count = computed(() => store.state.count);
-    const inc = () => store.dispatch("inc");
+    const store = useStore<State>();
+    const count = computed(() => store.state.num);
+    const inc = () => store.dispatch(ActionTypes.ASYNC_INC);
 
     return () => (
       <Fragment>
