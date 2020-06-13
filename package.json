@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "vendor": "snowpack install",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "prettier --check \"src/**/*.js\""
+  },
+  "dependencies": {
+    "tailwindcss": "^1.4.6",
+    "vue": "v3.0.0-beta.14",
+    "vuex": "v4.0.0-beta.2",
+    "vue-router": "v4.0.0-alpha.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "@snowpack/plugin-webpack": "^1.2.0",
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1",
+    "prettier": "^2.0.5",
+    "snowpack": "^2.5.1"
+  }
+}

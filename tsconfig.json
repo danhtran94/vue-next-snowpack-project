@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "lib": ["DOM", "ES6"],
+    "target": "ES2016",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "jsxFactory": "jsx",
+    "checkJs": true,
+    "allowJs": true,
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["./src/*"]
+    }
+  },
+  "include": ["./src", "./types"],
+  "exclude": ["node_modules"],
+  "compileOnSave": false
+}
