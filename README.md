@@ -2,6 +2,11 @@
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
+```
+yarn global add degit
+degit danhtran94/vue-project-template app-name
+```
+
 ## Available Scripts
 
 ### npm start
