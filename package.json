@@ -10,7 +10,6 @@
   "dependencies": {
     "tailwindcss": "^1.4.6",
     "vue": "v3.0.0-beta.15",
-    "vuex": "v4.0.0-beta.2",
     "vue-router": "v4.0.0-alpha.12"
   },
   "devDependencies": {

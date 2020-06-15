@@ -1,20 +1,15 @@
-import { defineComponent, computed, Fragment } from "vue";
-import { useStore } from "vuex";
+import { defineComponent, Fragment } from "vue";
 import { jsx } from "src/utils/jsx";
 
-import { State, ActionTypes } from "src/store/index";
+import { num, asyncInc } from "src/store/global";
 
 export const PageHome = defineComponent({
   setup(props, ctx) {
-    const store = useStore<State>();
-    const count = computed(() => store.state.num);
-    const inc = () => store.dispatch(ActionTypes.ASYNC_INC);
-
     return () => (
       <Fragment>
         <div>Simple counter:</div>
-        <div>Number: {count.value}</div>
-        <button onClick={inc}>increment</button>
+        <div>Number: {num.value}</div>
+        <button onClick={asyncInc}>increment</button>
       </Fragment>
     );
   },

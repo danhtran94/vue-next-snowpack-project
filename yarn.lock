@@ -6661,11 +6661,6 @@ vue@v3.0.0-beta.15:
     "@vue/runtime-dom" "3.0.0-beta.15"
     "@vue/shared" "3.0.0-beta.15"
 
-vuex@v4.0.0-beta.2:
-  version "4.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/vuex/-/vuex-4.0.0-beta.2.tgz#8ced720de70e5549a72b0982199cae3ecc687482"
-  integrity sha512-IxLyd/CIyQSF5o6yYGqAOmTTRoXo1lboTPPDvfFr/bib1VCpfgy1G7QBp2u7fwVrxfbEhJ5JYOj6+jQMYFfA0g==
-
 w3c-hr-time@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/w3c-hr-time/-/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
