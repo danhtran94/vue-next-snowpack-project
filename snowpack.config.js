@@ -6,7 +6,7 @@ module.exports = {
     "mount:lib": "mount lib --to /_dist_/lib",
     "mount:utils": "mount utils --to /_dist_/utils",
     "mount:src": "mount src --to /_dist_",
-    "build:tsx,ts":
+    "build:tsx":
       "esbuild --jsx-factory=jsx --jsx-fragment=Fragment --loader=tsx",
     "build:css": "postcss",
   },
