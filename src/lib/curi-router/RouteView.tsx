@@ -1,4 +1,4 @@
-import { defineComponent } from "vue";
+import { defineComponent, toRaw } from "vue";
 import { jsx } from "src/utils/jsx";
 import { pathOr } from "rambda";
 
@@ -9,7 +9,10 @@ export const RouteView = defineComponent({
     name: { type: String },
   },
   setup({ name = "default" }, ctx) {
-    const View = pathOr(rResponse.value.body, name, rResponse.value.body);
-    return () => <View />;
+    const Component = toRaw(
+      pathOr(rResponse.value.body, name, rResponse.value.body),
+    );
+
+    return () => <Component />;
   },
 });

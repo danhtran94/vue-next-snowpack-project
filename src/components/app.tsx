@@ -1,4 +1,4 @@
-import { defineComponent, Fragment } from "vue";
+import { defineComponent } from "vue";
 import { RouteView } from "src/lib/curi-router/index";
 import { jsx } from "src/utils/jsx";
 

@@ -1,13 +1,13 @@
 import { reactive, computed } from "vue";
 
-const state = reactive({
+const _state = reactive({
   num: 0,
 });
 
-export const num = computed(() => state.num);
+export const rNum = computed(() => _state.num);
 
 export function syncInc() {
-  state.num++;
+  _state.num++;
 }
 
 export function asyncInc() {

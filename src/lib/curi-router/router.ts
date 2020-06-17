@@ -1,5 +1,5 @@
 import type { CuriRouter, Navigation, Response } from "@curi/types";
-import { reactive, readonly, toRef, markRaw } from "vue";
+import { reactive, readonly, toRef } from "vue";
 
 const _navAndresp = reactive<{
   navigation: Navigation;
@@ -15,13 +15,8 @@ export function setup(router: CuriRouter) {
   _navAndresp.response = _initial.response;
 
   return router.observe(({ response, navigation }) => {
-    const resp = {
-      ...response,
-      body: markRaw(response.body),
-    };
-
     _navAndresp.navigation = navigation;
-    _navAndresp.response = resp;
+    _navAndresp.response = response;
   });
 }
 
