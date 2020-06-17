@@ -1,5 +1,5 @@
 import { defineComponent } from "vue";
-import { jsx } from "src/utils/jsx";
+import { jsx } from "utils/jsx";
 
 export const LayoutHeader = defineComponent({
   props: {},

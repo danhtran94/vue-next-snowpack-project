@@ -1,6 +1,6 @@
 import { defineComponent } from "vue";
-import { RouteView } from "src/lib/curi-router-plugin/index";
-import { jsx } from "src/utils/jsx";
+import { RouteView } from "lib/curi-router-plugin/index";
+import { jsx } from "utils/jsx";
 
 import { Layout } from "src/components/layout";
 

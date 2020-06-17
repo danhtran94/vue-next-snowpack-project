@@ -1,5 +1,5 @@
 import { defineComponent, Fragment } from "vue";
-import { jsx } from "src/utils/jsx";
+import { jsx } from "utils/jsx";
 
 import { rNum, asyncInc } from "src/store/global";
 

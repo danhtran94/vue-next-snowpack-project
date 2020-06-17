@@ -18,10 +18,12 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "paths": {
-      "src/*": ["./src/*"]
+      "src/*": ["./src/*"],
+      "lib/*": ["./lib/*"],
+      "utils/*": ["./utils/*"]
     }
   },
-  "include": ["./src", "./types"],
+  "include": ["./src", "./lib", "./utils", "./types"],
   "exclude": ["node_modules"],
   "compileOnSave": false
 }
