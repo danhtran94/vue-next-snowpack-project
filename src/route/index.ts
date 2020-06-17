@@ -1,15 +1,18 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { prepareRoutes, createRouter } from "@curi/router";
+import { browser } from "@hickory/browser";
 
 import { PageHome } from "src/components/page-home";
 
-const history = createWebHashHistory();
-export const router = createRouter({
-  history,
-  routes: [
-    {
-      path: "/",
-      name: "home",
-      component: PageHome,
+let routes = prepareRoutes([
+  {
+    name: "Home",
+    path: "",
+    respond: () => {
+      return { body: PageHome };
     },
-  ],
+  },
+]);
+
+export let router = createRouter(browser, routes, {
+  sideEffects: [],
 });

@@ -796,6 +796,32 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@curi/interactions@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@curi/interactions/-/interactions-2.0.1.tgz#9acf9431f2d000685a6fd03948f8589055c163f9"
+  integrity sha512-TWrDgv6iBRtlUWRv8QZmAX2MmTKYGfAWEK1KzhtVPhosZC9g+l/hz9/GDlJ71VDJHNdp/G39ItT8BB+ZGvkX+g==
+  dependencies:
+    "@curi/types" "^2.0.1"
+    "@hickory/root" "^2.1.0"
+
+"@curi/router@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@curi/router/-/router-2.1.0.tgz#53b3f7cd27a94d27ea97e9daa37a804a81574134"
+  integrity sha512-MyDBHFwE1j3jNWCEFeRup98RP/wPvCSi71sS06I3NkbB303RSN3A8lYrBS7vbWSsRCn8esT8ARov1KyhRhNwvg==
+  dependencies:
+    "@curi/interactions" "^2.0.1"
+    "@curi/types" "^2.0.1"
+    "@hickory/root" "^2.1.0"
+    path-to-regexp "^2.1.0"
+
+"@curi/types@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@curi/types/-/types-2.0.1.tgz#4b88f56f298dd52261433f2dfb449121677ae767"
+  integrity sha512-6O1fz1wuGfxILabocyABxB80Dcl5zFcelyRW2e5Xxis0v3uBQj4tXp/LNc8P9RQ3DXvXNVwYNNZ9vbyB19cYJQ==
+  dependencies:
+    "@hickory/root" "^2.1.0"
+    path-to-regexp "^2.1.0"
+
 "@fullhuman/postcss-purgecss@^2.1.2":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-2.2.0.tgz#2b3699287163ff515f25ccdae5b96a244eebb41a"
@@ -811,6 +837,31 @@
   dependencies:
     postcss "7.0.32"
     purgecss "^2.3.0"
+
+"@hickory/browser@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@hickory/browser/-/browser-2.1.0.tgz#d4aaed089957fe1c5b90aab94703f8c92fb18506"
+  integrity sha512-bFTL4L/NKDBKA8PG1w3RBfsHdCZUieaFEYX42+YP+RFccEkUdCSz1EeIpL4lQuPOH4iW74p/4aijmhUGrDVjbw==
+  dependencies:
+    "@hickory/dom-utils" "^2.1.0"
+    "@hickory/root" "^2.1.0"
+
+"@hickory/dom-utils@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@hickory/dom-utils/-/dom-utils-2.1.0.tgz#4bf0bd3117b393321cc31fe477501f44287b9d6f"
+  integrity sha512-fBzR0yWLFDLHcl6at+PaaXfC0c114DCYw+dwLzbvLLsGbEwWzQJaE4PGn1osR8teyWoqH6P2RYWVd95ua7lUuQ==
+
+"@hickory/location-utils@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@hickory/location-utils/-/location-utils-2.1.0.tgz#4550471990c4295199d1240dba99186c9ae08b62"
+  integrity sha512-+PKHZ9fEbNAnnUzwk6RynvoQcW3/v8aw6jz1MHnSrdGM0lngiWrDQf1G78YFCIvcEm/FqAphmg7Nl8Cz7vaV6w==
+
+"@hickory/root@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@hickory/root/-/root-2.1.0.tgz#cc0e909eeaa47e3a2938f33b02ff9220365882a5"
+  integrity sha512-vRy4yadZp7mP47K8hpFpNKg3Ocxsmv+ezO9l4F7+GcscpD1JJiNLCnUNVuw+XIqUjuNvcyBoH8ToiEJCxWvvdA==
+  dependencies:
+    "@hickory/location-utils" "^2.1.0"
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
@@ -4815,6 +4866,11 @@ path-parse@^1.0.6:
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
 
+path-to-regexp@^2.1.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-2.4.0.tgz#35ce7f333d5616f1c1e1bfe266c3aba2e5b2e704"
+  integrity sha512-G6zHoVqC6GGTQkZwF4lkuEyMbVOjoBKAEybQUypI1WTkqinCOrq2x6U2+phkJ1XsEMTy4LjtwPI7HW+NVrRR2w==
+
 path-type@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
@@ -5468,6 +5524,11 @@ quick-lru@^5.0.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
+
+rambda@^5.7.0:
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/rambda/-/rambda-5.7.0.tgz#1c051e2659549f9bcb1679ec3e84c106a4c010c7"
+  integrity sha512-DSranSh0/58bayUCkYyCiuvuSJND4X+di+6CZRko7LPf/Jz7HuGaSz24j5r8YQ39S5L5olqT/QQU8pN2Y8HKaA==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"
@@ -6646,11 +6707,6 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
-
-vue-router@v4.0.0-alpha.12:
-  version "4.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.0-alpha.12.tgz#cba18f0a7fcb577d97c8cd10072a9927313db510"
-  integrity sha512-TJhbWHPZS1v259PKlZf+ljSob0U2RUii3HXQgrcFXsNmeWuqEYEh6trswHHr4+MQdXxHgonyYK28qhBjNhORkA==
 
 vue@v3.0.0-beta.15:
   version "3.0.0-beta.15"

@@ -8,9 +8,11 @@
     "lint": "prettier --check \"src/**/*.js\""
   },
   "dependencies": {
+    "@curi/router": "^2.1.0",
+    "@hickory/browser": "^2.1.0",
+    "rambda": "^5.7.0",
     "tailwindcss": "^1.4.6",
-    "vue": "v3.0.0-beta.15",
-    "vue-router": "v4.0.0-alpha.12"
+    "vue": "v3.0.0-beta.15"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
