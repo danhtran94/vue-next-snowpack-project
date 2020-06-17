@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import { setup } from "src/lib/curi-router/index";
+import { setup } from "src/lib/curi-router-plugin/index";
 import "./global.css";
 
 import { router } from "src/route/index";
