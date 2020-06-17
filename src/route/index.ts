@@ -5,7 +5,7 @@ import { PageHome } from "src/components/page-home";
 
 let routes = prepareRoutes([
   {
-    name: "Home",
+    name: "home",
     path: "",
     respond: () => {
       return { body: PageHome };
