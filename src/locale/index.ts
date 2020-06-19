@@ -1,11 +1,9 @@
 import lingui from "@lingui/core";
-import en from "./en/messages";
+
 import vi from "./vi/messages";
+import en from "./en/messages";
 
 export function loadLocale() {
-  /**
-   * Comment this block code while extracting locale
-   **/
   lingui.i18n.load({
     en: en.messages,
     vi: vi.messages,
@@ -15,7 +13,4 @@ export function loadLocale() {
     vi: vi.languageData,
   });
   lingui.i18n.activate("en");
-  /**
-   * End block
-   */
 }

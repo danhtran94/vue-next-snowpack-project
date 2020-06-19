@@ -5,6 +5,6 @@ module.exports = {
   sourceLocale: "",
   localeDir: "<rootDir>/src/locale",
   srcPathDirs: ["<rootDir>/src"],
-  srcPathIgnorePatterns: ["/node_modules/"],
+  srcPathIgnorePatterns: ["/node_modules/", "<rootDir>/src/locale"],
   format: "lingui",
 };
