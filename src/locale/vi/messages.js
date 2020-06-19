@@ -1,0 +1,1 @@
+/* eslint-disable */export default{languageData:{"plurals":function(n,ord){if(ord)return n==1?"one":"other";return"other"}},messages:{"hello":"Xin ch\xE0o!"}};

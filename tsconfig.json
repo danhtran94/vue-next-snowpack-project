@@ -7,7 +7,7 @@
     "moduleResolution": "node",
     "jsx": "react",
     "jsxFactory": "jsx",
-    "checkJs": true,
+    // "checkJs": true,
     "allowJs": true,
     "isolatedModules": false,
     "experimentalDecorators": true,

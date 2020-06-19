@@ -1,0 +1,6 @@
+{
+  "hello": {
+    "translation": "Xin chào!",
+    "origin": [["src/components/page-home.tsx", 12]]
+  }
+}

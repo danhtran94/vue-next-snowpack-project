@@ -1,0 +1,10 @@
+{
+  "hello": {
+    "origin": [
+      [
+        "src/components/page-home.tsx",
+        12
+      ]
+    ]
+  }
+}

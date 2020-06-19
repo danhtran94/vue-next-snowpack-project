@@ -3,6 +3,9 @@
     "dev": "snowpack dev",
     "build": "snowpack build",
     "vendor": "snowpack install",
+    "add-locale": "lingui add-locale",
+    "extract": "lingui extract",
+    "compile": "lingui compile",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1",
     "format": "prettier --write \"src/**/*.js\"",
     "lint": "prettier --check \"src/**/*.js\""
@@ -10,6 +13,7 @@
   "dependencies": {
     "@curi/router": "^2.1.0",
     "@hickory/browser": "^2.1.0",
+    "@lingui/core": "3.0.0-13",
     "rambda": "^5.7.0",
     "tailwindcss": "^1.4.6",
     "vue": "v3.0.0-beta.15"
@@ -17,11 +21,17 @@
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
     "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@lingui/cli": "^2.9.1",
     "@snowpack/plugin-webpack": "^1.2.0",
     "autoprefixer": "^9.8.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-plugin-macros": "^2.8.0",
+    "babel-plugin-search-and-replace": "^1.0.1",
     "postcss-cli": "^7.1.1",
     "prettier": "^2.0.5",
-    "snowpack": "^2.5.2"
+    "snowpack": "^2.5.2",
+    "typescript": "^3.9.5"
   }
 }
