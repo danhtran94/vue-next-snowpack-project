@@ -1,11 +1,10 @@
 {
+  "app_name": {
+    "translation": "App đếm số",
+    "origin": [["src/components/app.tsx", 7]]
+  },
   "hello": {
     "translation": "Xin chào!",
-    "origin": [
-      [
-        "src/components/page-home.tsx",
-        12
-      ]
-    ]
+    "origin": [["src/components/page-home.tsx", 12]]
   }
 }

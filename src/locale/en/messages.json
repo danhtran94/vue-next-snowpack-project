@@ -1,11 +1,10 @@
 {
+  "app_name": {
+    "translation": "Counter app",
+    "origin": [["src/components/app.tsx", 7]]
+  },
   "hello": {
     "translation": "Hello World!",
-    "origin": [
-      [
-        "src/components/page-home.tsx",
-        12
-      ]
-    ]
+    "origin": [["src/components/page-home.tsx", 12]]
   }
 }
