@@ -13,6 +13,6 @@ export const RouteView = defineComponent({
       pathOr(rResponse.value.body, name, rResponse.value.body),
     );
 
-    return () => <Component />;
+    return () => <Component {...ctx.attrs} />;
   },
 });
