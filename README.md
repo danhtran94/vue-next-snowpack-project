@@ -1,4 +1,4 @@
-# Vue 3 Template
+# Vue 3 Project Template
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
@@ -19,11 +19,12 @@ degit danhtran94/vue-project-template app-name
 
 ## Status (researching)
 
-- [x] Typescript TSX
-- [x] Store with vue 3 global reactive/ref
-- [x] Router with curi https://github.com/pshrmn/curi
-- [x] i18n with lingui https://github.com/lingui/js-lingui
-- [] HMR JSX still not available
+[x] Typescript TSX
+[x] Store with vue 3 global reactive/ref
+[x] Router with curi https://github.com/pshrmn/curi
+[x] i18n with lingui https://github.com/lingui/js-lingui
+[] HMR JSX still not available
+[] Macro for Lingui
 
 ## Available Scripts
 
