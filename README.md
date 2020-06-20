@@ -54,7 +54,7 @@ Add new language to your app
 yarn extract
 ```
 
-Looks for messages created by i18n lingui in the source files `src/` and extracts catalog that ready for translation in `src/locale/[locale-name]/messages.json`.
+Looks for messages created by i18n lingui in the source files `src/` and extracts catalog that ready for translation in `src/locale/[locale-name]/messages.po`.
 
 ### (i18n) yarn compile
 
