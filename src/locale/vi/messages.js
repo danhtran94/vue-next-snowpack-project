@@ -1,1 +1,1 @@
-/* eslint-disable */export default{languageData:{"plurals":function(n,ord){if(ord)return n==1?"one":"other";return"other"}},messages:{"app_name":"Counter app","hello":"Hello!"}};
+/* eslint-disable */export default{languageData:{"plurals":function(n,ord){if(ord)return n==1?"one":"other";return"other"}},messages:{"app_name":"\u0111\u1EBFm s\u1ED1","click":"b\u1EA5m","number":"\u0111\u1EBFm","times":"times"}};

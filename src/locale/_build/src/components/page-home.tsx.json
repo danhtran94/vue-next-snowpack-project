@@ -1,9 +1,25 @@
 {
-  "hello": {
+  "number": {
     "origin": [
       [
         "src/components/page-home.tsx",
-        12
+        14
+      ]
+    ]
+  },
+  "times": {
+    "origin": [
+      [
+        "src/components/page-home.tsx",
+        15
+      ]
+    ]
+  },
+  "click": {
+    "origin": [
+      [
+        "src/components/page-home.tsx",
+        19
       ]
     ]
   }

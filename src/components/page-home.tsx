@@ -15,11 +15,12 @@ export const PageHome = defineComponent({
 
     return () => (
       <Fragment>
-        {i18n._("hello")}
-        <div>Simple counter:</div>
-        <div>Number: {rNum.value}</div>
-        <button onClick={asyncInc}>increment</button>
-        <br />
+        <div>
+          <p>
+            {i18n._("number")}: {rNum.value}
+          </p>
+          <button onClick={asyncInc}>{i18n._("click")}</button>
+        </div>
         <button onClick={changeLang}>{lang.value}</button>
       </Fragment>
     );

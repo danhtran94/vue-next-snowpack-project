@@ -6,11 +6,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: vi\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
 #: src/components/app.tsx:7
 msgid "app_name"
-msgstr "Counter app"
+msgstr "đếm số"
 
-#: src/components/page-home.tsx:12
-msgid "hello"
-msgstr "Hello!"
+#: src/components/page-home.tsx:19
+msgid "click"
+msgstr "bấm"
+
+#: src/components/page-home.tsx:14
+msgid "number"
+msgstr "đếm"
+
+#: src/components/page-home.tsx:15
+msgid "times"
+msgstr ""
