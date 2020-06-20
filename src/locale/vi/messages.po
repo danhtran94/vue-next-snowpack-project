@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2020-06-20 14:42+0700\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: vi\n"
+
+#: src/components/app.tsx:7
+msgid "app_name"
+msgstr "Counter app"
+
+#: src/components/page-home.tsx:12
+msgid "hello"
+msgstr "Hello!"
